@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2903E1331D11C32E00DB8DAB /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2903E1321D11C32E00DB8DAB /* assets.atlas */; };
+		2903E1381D11CB5B00DB8DAB /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1371D11CB5B00DB8DAB /* SushiPiece.swift */; };
+		2903E13A1D11CDB300DB8DAB /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1391D11CDB300DB8DAB /* Character.swift */; };
+		2903E1471D11D0B400DB8DAB /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E13B1D11D0B400DB8DAB /* CGFloat+Extensions.swift */; };
+		2903E1481D11D0B400DB8DAB /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E13C1D11D0B400DB8DAB /* CGPoint+Extensions.swift */; };
+		2903E1491D11D0B400DB8DAB /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E13D1D11D0B400DB8DAB /* CGVector+Extensions.swift */; };
+		2903E14A1D11D0B400DB8DAB /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E13E1D11D0B400DB8DAB /* Int+Extensions.swift */; };
+		2903E14B1D11D0B400DB8DAB /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E13F1D11D0B400DB8DAB /* SKAction+Extensions.swift */; };
+		2903E14C1D11D0B400DB8DAB /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1401D11D0B400DB8DAB /* SKAction+SpecialEffects.swift */; };
+		2903E14D1D11D0B400DB8DAB /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1411D11D0B400DB8DAB /* SKColor+Extensions.swift */; };
+		2903E14E1D11D0B400DB8DAB /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1421D11D0B400DB8DAB /* SKNode+Extensions.swift */; };
+		2903E14F1D11D0B400DB8DAB /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1431D11D0B400DB8DAB /* SKTAudio.swift */; };
+		2903E1501D11D0B400DB8DAB /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1441D11D0B400DB8DAB /* SKTEffects.swift */; };
+		2903E1511D11D0B400DB8DAB /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1451D11D0B400DB8DAB /* SKTTimingFunctions.swift */; };
+		2903E1521D11D0B400DB8DAB /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1461D11D0B400DB8DAB /* Vector3.swift */; };
+		2903E1561D11D0C800DB8DAB /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1541D11D0C800DB8DAB /* MSButtonNode.swift */; };
+		2903E1571D11D0C800DB8DAB /* MSReferenceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903E1551D11D0C800DB8DAB /* MSReferenceNode.swift */; };
+		2903E1591D11D51400DB8DAB /* AnimationActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2903E1581D11D51400DB8DAB /* AnimationActions.sks */; };
 		293B0FA81D10D9ED008BF908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B0FA71D10D9ED008BF908 /* AppDelegate.swift */; };
 		293B0FAA1D10D9ED008BF908 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 293B0FA91D10D9ED008BF908 /* GameScene.sks */; };
 		293B0FAC1D10D9ED008BF908 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B0FAB1D10D9ED008BF908 /* GameScene.swift */; };
@@ -16,6 +34,11 @@
 		293B0FB61D10D9ED008BF908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293B0FB41D10D9ED008BF908 /* LaunchScreen.storyboard */; };
 		293B0FC11D10D9EE008BF908 /* SushiNekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B0FC01D10D9EE008BF908 /* SushiNekoTests.swift */; };
 		293B0FCC1D10D9EE008BF908 /* SushiNekoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B0FCB1D10D9EE008BF908 /* SushiNekoUITests.swift */; };
+		2956AB141D19B34B00983C15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2956AB131D19B34B00983C15 /* GoogleService-Info.plist */; };
+		2956AB161D19B37C00983C15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2956AB151D19B37C00983C15 /* GoogleService-Info.plist */; };
+		8BF5F8BE80F4AE71E478435A /* Pods_SushiNekoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE923CBD3E55EBFA7A45242D /* Pods_SushiNekoTests.framework */; };
+		C05F4562D115605F0599E0D5 /* Pods_SushiNeko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87834EB2BEC12B1974A83B55 /* Pods_SushiNeko.framework */; };
+		EAF84E568C3AA1D166C8A183 /* Pods_SushiNekoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A52436F9432BA5757204011 /* Pods_SushiNekoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EFD519D7720EE8664139D20 /* Pods-SushiNekoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SushiNekoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SushiNekoTests/Pods-SushiNekoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1366BE07F2AACE73FE35A68F /* Pods-SushiNekoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SushiNekoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SushiNekoUITests/Pods-SushiNekoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2903E1321D11C32E00DB8DAB /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		2903E1341D11C35200DB8DAB /* sfx_swipe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_swipe.caf; sourceTree = "<group>"; };
+		2903E1371D11CB5B00DB8DAB /* SushiPiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SushiPiece.swift; path = ../SushiPiece.swift; sourceTree = "<group>"; };
+		2903E1391D11CDB300DB8DAB /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		2903E13B1D11D0B400DB8DAB /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		2903E13C1D11D0B400DB8DAB /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		2903E13D1D11D0B400DB8DAB /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		2903E13E1D11D0B400DB8DAB /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		2903E13F1D11D0B400DB8DAB /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		2903E1401D11D0B400DB8DAB /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		2903E1411D11D0B400DB8DAB /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		2903E1421D11D0B400DB8DAB /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		2903E1431D11D0B400DB8DAB /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		2903E1441D11D0B400DB8DAB /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		2903E1451D11D0B400DB8DAB /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		2903E1461D11D0B400DB8DAB /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		2903E1541D11D0C800DB8DAB /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		2903E1551D11D0C800DB8DAB /* MSReferenceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSReferenceNode.swift; sourceTree = "<group>"; };
+		2903E1581D11D51400DB8DAB /* AnimationActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = AnimationActions.sks; path = ../AnimationActions.sks; sourceTree = "<group>"; };
 		293B0FA41D10D9ED008BF908 /* SushiNeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiNeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		293B0FA71D10D9ED008BF908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		293B0FA91D10D9ED008BF908 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +95,15 @@
 		293B0FC71D10D9EE008BF908 /* SushiNekoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiNekoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		293B0FCB1D10D9EE008BF908 /* SushiNekoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiNekoUITests.swift; sourceTree = "<group>"; };
 		293B0FCD1D10D9EE008BF908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2956AB131D19B34B00983C15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2956AB151D19B37C00983C15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A52436F9432BA5757204011 /* Pods_SushiNekoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SushiNekoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF2AE2929BBD9CD952A9E4B /* Pods-SushiNeko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SushiNeko.release.xcconfig"; path = "Pods/Target Support Files/Pods-SushiNeko/Pods-SushiNeko.release.xcconfig"; sourceTree = "<group>"; };
+		87834EB2BEC12B1974A83B55 /* Pods_SushiNeko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SushiNeko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF8898313B1670F6E6F8DDA /* Pods-SushiNekoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SushiNekoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SushiNekoUITests/Pods-SushiNekoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B902B9AF026858C4FA20B27B /* Pods-SushiNekoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SushiNekoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SushiNekoTests/Pods-SushiNekoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C56AEFBBBD47E8BE3EF4B217 /* Pods-SushiNeko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SushiNeko.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SushiNeko/Pods-SushiNeko.debug.xcconfig"; sourceTree = "<group>"; };
+		EE923CBD3E55EBFA7A45242D /* Pods_SushiNekoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SushiNekoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05F4562D115605F0599E0D5 /* Pods_SushiNeko.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF5F8BE80F4AE71E478435A /* Pods_SushiNekoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +127,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF84E568C3AA1D166C8A183 /* Pods_SushiNekoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038E8E266771321B994956F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87834EB2BEC12B1974A83B55 /* Pods_SushiNeko.framework */,
+				EE923CBD3E55EBFA7A45242D /* Pods_SushiNekoTests.framework */,
+				7A52436F9432BA5757204011 /* Pods_SushiNekoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2903E1531D11D0B900DB8DAB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2903E1541D11D0C800DB8DAB /* MSButtonNode.swift */,
+				2903E1551D11D0C800DB8DAB /* MSReferenceNode.swift */,
+				2903E13B1D11D0B400DB8DAB /* CGFloat+Extensions.swift */,
+				2903E13C1D11D0B400DB8DAB /* CGPoint+Extensions.swift */,
+				2903E13D1D11D0B400DB8DAB /* CGVector+Extensions.swift */,
+				2903E13E1D11D0B400DB8DAB /* Int+Extensions.swift */,
+				2903E13F1D11D0B400DB8DAB /* SKAction+Extensions.swift */,
+				2903E1401D11D0B400DB8DAB /* SKAction+SpecialEffects.swift */,
+				2903E1411D11D0B400DB8DAB /* SKColor+Extensions.swift */,
+				2903E1421D11D0B400DB8DAB /* SKNode+Extensions.swift */,
+				2903E1431D11D0B400DB8DAB /* SKTAudio.swift */,
+				2903E1441D11D0B400DB8DAB /* SKTEffects.swift */,
+				2903E1451D11D0B400DB8DAB /* SKTTimingFunctions.swift */,
+				2903E1461D11D0B400DB8DAB /* Vector3.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		293B0F9B1D10D9ED008BF908 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +172,8 @@
 				293B0FBF1D10D9EE008BF908 /* SushiNekoTests */,
 				293B0FCA1D10D9EE008BF908 /* SushiNekoUITests */,
 				293B0FA51D10D9ED008BF908 /* Products */,
+				3E2BEF1DDE50FFF45DBE5345 /* Pods */,
+				038E8E266771321B994956F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +190,21 @@
 		293B0FA61D10D9ED008BF908 /* SushiNeko */ = {
 			isa = PBXGroup;
 			children = (
+				2903E1581D11D51400DB8DAB /* AnimationActions.sks */,
+				2956AB151D19B37C00983C15 /* GoogleService-Info.plist */,
+				2903E1341D11C35200DB8DAB /* sfx_swipe.caf */,
+				2903E1321D11C32E00DB8DAB /* assets.atlas */,
 				293B0FA71D10D9ED008BF908 /* AppDelegate.swift */,
 				293B0FA91D10D9ED008BF908 /* GameScene.sks */,
 				293B0FAB1D10D9ED008BF908 /* GameScene.swift */,
+				2903E1371D11CB5B00DB8DAB /* SushiPiece.swift */,
 				293B0FAD1D10D9ED008BF908 /* GameViewController.swift */,
 				293B0FAF1D10D9ED008BF908 /* Main.storyboard */,
 				293B0FB21D10D9ED008BF908 /* Assets.xcassets */,
 				293B0FB41D10D9ED008BF908 /* LaunchScreen.storyboard */,
 				293B0FB71D10D9ED008BF908 /* Info.plist */,
+				2903E1391D11CDB300DB8DAB /* Character.swift */,
+				2903E1531D11D0B900DB8DAB /* Utils */,
 			);
 			path = SushiNeko;
 			sourceTree = "<group>";
@@ -131,6 +227,20 @@
 			path = SushiNekoUITests;
 			sourceTree = "<group>";
 		};
+		3E2BEF1DDE50FFF45DBE5345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2956AB131D19B34B00983C15 /* GoogleService-Info.plist */,
+				C56AEFBBBD47E8BE3EF4B217 /* Pods-SushiNeko.debug.xcconfig */,
+				7EF2AE2929BBD9CD952A9E4B /* Pods-SushiNeko.release.xcconfig */,
+				0EFD519D7720EE8664139D20 /* Pods-SushiNekoTests.debug.xcconfig */,
+				B902B9AF026858C4FA20B27B /* Pods-SushiNekoTests.release.xcconfig */,
+				9EF8898313B1670F6E6F8DDA /* Pods-SushiNekoUITests.debug.xcconfig */,
+				1366BE07F2AACE73FE35A68F /* Pods-SushiNekoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 293B0FD01D10D9EE008BF908 /* Build configuration list for PBXNativeTarget "SushiNeko" */;
 			buildPhases = (
+				5B2122BCD9952942E39F0EAF /* [CP] Check Pods Manifest.lock */,
 				293B0FA01D10D9ED008BF908 /* Sources */,
 				293B0FA11D10D9ED008BF908 /* Frameworks */,
 				293B0FA21D10D9ED008BF908 /* Resources */,
+				D0BE8DFB895FC3F182D1E072 /* [CP] Embed Pods Frameworks */,
+				DABFB1D6F681D6D5C1F383DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 293B0FD31D10D9EE008BF908 /* Build configuration list for PBXNativeTarget "SushiNekoTests" */;
 			buildPhases = (
+				5A2D28D01575C3922A57A036 /* [CP] Check Pods Manifest.lock */,
 				293B0FB81D10D9EE008BF908 /* Sources */,
 				293B0FB91D10D9EE008BF908 /* Frameworks */,
 				293B0FBA1D10D9EE008BF908 /* Resources */,
+				06898B006E8D1E4B626FDF02 /* [CP] Embed Pods Frameworks */,
+				1B41DBC07DD7F3CB3187B021 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 293B0FD61D10D9EE008BF908 /* Build configuration list for PBXNativeTarget "SushiNekoUITests" */;
 			buildPhases = (
+				167C47686BF0FAB10A37B909 /* [CP] Check Pods Manifest.lock */,
 				293B0FC31D10D9EE008BF908 /* Sources */,
 				293B0FC41D10D9EE008BF908 /* Frameworks */,
 				293B0FC51D10D9EE008BF908 /* Resources */,
+				2B5AC45355AFFF5D6712E46B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,10 +353,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2903E1591D11D51400DB8DAB /* AnimationActions.sks in Resources */,
+				2956AB161D19B37C00983C15 /* GoogleService-Info.plist in Resources */,
 				293B0FAA1D10D9ED008BF908 /* GameScene.sks in Resources */,
 				293B0FB61D10D9ED008BF908 /* LaunchScreen.storyboard in Resources */,
 				293B0FB31D10D9ED008BF908 /* Assets.xcassets in Resources */,
+				2903E1331D11C32E00DB8DAB /* assets.atlas in Resources */,
 				293B0FB11D10D9ED008BF908 /* Main.storyboard in Resources */,
+				2956AB141D19B34B00983C15 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,13 +380,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06898B006E8D1E4B626FDF02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SushiNekoTests/Pods-SushiNekoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167C47686BF0FAB10A37B909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B41DBC07DD7F3CB3187B021 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SushiNekoTests/Pods-SushiNekoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5AC45355AFFF5D6712E46B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SushiNekoUITests/Pods-SushiNekoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2D28D01575C3922A57A036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2122BCD9952942E39F0EAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0BE8DFB895FC3F182D1E072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SushiNeko/Pods-SushiNeko-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DABFB1D6F681D6D5C1F383DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SushiNeko/Pods-SushiNeko-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		293B0FA01D10D9ED008BF908 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2903E1481D11D0B400DB8DAB /* CGPoint+Extensions.swift in Sources */,
+				2903E1501D11D0B400DB8DAB /* SKTEffects.swift in Sources */,
+				2903E14B1D11D0B400DB8DAB /* SKAction+Extensions.swift in Sources */,
+				2903E1561D11D0C800DB8DAB /* MSButtonNode.swift in Sources */,
 				293B0FAC1D10D9ED008BF908 /* GameScene.swift in Sources */,
+				2903E14E1D11D0B400DB8DAB /* SKNode+Extensions.swift in Sources */,
+				2903E1381D11CB5B00DB8DAB /* SushiPiece.swift in Sources */,
+				2903E1511D11D0B400DB8DAB /* SKTTimingFunctions.swift in Sources */,
+				2903E14C1D11D0B400DB8DAB /* SKAction+SpecialEffects.swift in Sources */,
+				2903E14A1D11D0B400DB8DAB /* Int+Extensions.swift in Sources */,
+				2903E1521D11D0B400DB8DAB /* Vector3.swift in Sources */,
+				2903E13A1D11CDB300DB8DAB /* Character.swift in Sources */,
+				2903E14D1D11D0B400DB8DAB /* SKColor+Extensions.swift in Sources */,
+				2903E1491D11D0B400DB8DAB /* CGVector+Extensions.swift in Sources */,
 				293B0FAE1D10D9ED008BF908 /* GameViewController.swift in Sources */,
+				2903E14F1D11D0B400DB8DAB /* SKTAudio.swift in Sources */,
+				2903E1471D11D0B400DB8DAB /* CGFloat+Extensions.swift in Sources */,
+				2903E1571D11D0C800DB8DAB /* MSReferenceNode.swift in Sources */,
 				293B0FA81D10D9ED008BF908 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,8 +668,10 @@
 		};
 		293B0FD11D10D9EE008BF908 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C56AEFBBBD47E8BE3EF4B217 /* Pods-SushiNeko.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SushiNeko/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.SushiNeko;
@@ -418,8 +681,10 @@
 		};
 		293B0FD21D10D9EE008BF908 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF2AE2929BBD9CD952A9E4B /* Pods-SushiNeko.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SushiNeko/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.SushiNeko;
@@ -429,6 +694,7 @@
 		};
 		293B0FD41D10D9EE008BF908 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFD519D7720EE8664139D20 /* Pods-SushiNekoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -442,6 +708,7 @@
 		};
 		293B0FD51D10D9EE008BF908 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B902B9AF026858C4FA20B27B /* Pods-SushiNekoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SushiNekoTests/Info.plist;
@@ -454,6 +721,7 @@
 		};
 		293B0FD71D10D9EE008BF908 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF8898313B1670F6E6F8DDA /* Pods-SushiNekoUITests.debug.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = SushiNekoUITests/Info.plist;
@@ -466,6 +734,7 @@
 		};
 		293B0FD81D10D9EE008BF908 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1366BE07F2AACE73FE35A68F /* Pods-SushiNekoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SushiNekoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -494,6 +763,7 @@
 				293B0FD21D10D9EE008BF908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		293B0FD31D10D9EE008BF908 /* Build configuration list for PBXNativeTarget "SushiNekoTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +772,7 @@
 				293B0FD51D10D9EE008BF908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		293B0FD61D10D9EE008BF908 /* Build configuration list for PBXNativeTarget "SushiNekoUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +781,7 @@
 				293B0FD81D10D9EE008BF908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

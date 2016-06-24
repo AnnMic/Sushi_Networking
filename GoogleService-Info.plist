@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>204833684844-8sh5e713oe7fl2epbcr5n6a831oe5po6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.204833684844-8sh5e713oe7fl2epbcr5n6a831oe5po6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDEjSY5DRr07vo84V6G4mANPRL4hew6-a4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>204833684844</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.SushiNeko</string>
+	<key>PROJECT_ID</key>
+	<string>sushi-9868d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sushi-9868d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:204833684844:ios:2bb053e00153a363</string>
+	<key>DATABASE_URL</key>
+	<string>https://sushi-9868d.firebaseio.com</string>
+</dict>
+</plist>
